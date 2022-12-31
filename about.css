@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+
+ body {
+    background: white;
+    font-family:Poppins, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background: #696168;
+    color: white;
+    height: 50px;
+}
+
+header img{
+    height: 50px;
+    width:50px
+}
+
+label.logo{
+    position: absolute;
+    color:#FFFFFF;
+    font-size: 40px;
+    line-height: 10px;
+    padding: 0;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left:20px ;
+    top: -2px;
+    left: 40px;
+  }
+
+
+.navbar ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li{
+    list-style: none;
+
+}
+
+.navbar li a{
+     color: #FFFFFF;
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+    font-weight: bold;
+    
+}
+.navbar li a:hover{
+     color:#dd4bf5;
+    transition: .5s;
+}
+
+.bar3{
+    position: absolute;
+    top: .20rem;
+    right:1rem;
+    color: white;
+    display: none;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.bar3:hover{
+    color:#dd4bf5;
+    transition: .5s;
+}
+
+.content h2{
+	text-align: center;
+	font-size: 35px;
+
+}
+.content p{
+	color: black;
+	font-size: 25px;
+	padding-left: 30px;
+	margin: 5px;
+	padding-right: 30px;
+}
+
+
+}
+.credit{
+    text-align: center;
+    color: #000;
+    border-top: .1rem solid rgba(0,0,0,0.1); 
+    font-size: 20px;
+    font-style: italic;
+    padding: .5rem;
+    padding-top: 1.5rem;
+    margin-top:1.5rem ;
+}
+
+@media (max-width: 835px)
+{
+    header{
+        align-items: flex-start;
+        flex-direction: column ;
+    }
+
+    .navbar{
+        display: none;
+
+    }
+
+    .bar3{
+        display: flex;
+    }
+
+    .navbar ul{
+        position: absolute;
+        flex-direction: column;
+        height: 70vh;
+        background: rgba(105, 97, 104, 0.9);
+        width: 100%;
+        top: 40px;
+        transition: 5s ease;
+
+    }
+
+    .navbar li{
+        text-align: center;
+
+
+    }
+
+    
+    .navbar li a{
+        padding: 0.5em 8rem;
+        font-size: 25px;
+        font-weight: normal;
+    }
+
+    .navbar.active{
+        display: flex;
+        z-index: 500;
+    }
+
+    .content h2{
+        font-size: 25px;
+    }
+    .content p{
+        font-size: 20px;
+
+    }
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Home | APCES</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="shorcut icon" href="petrochemcrest.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;1,100;1,400;1,500&display=swap" rel="stylesheet">
+
+    
+     <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </head>
+
+  <body>
+    <header>
+      <img src="petrochemcrest.png" alt="logo">
+        <label class="logo">APCES</label>
+          <a href="#>"><span class="bar3">&#9776</span></a>
+        <nav class="navbar">
+          <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="http://www.hydrocarbonengineering.com">News</a></li>
+            <li><a href="executives.html">Executives</a></li>
+            <li><a href="https://sites.google.com/view/apcesdrive/home?pli=1">Study Materials</a></li>
+            <li><a href= "#quick">Quick Links</a></li>
+            <li><a href="about.html">About</a></li>
+
+          </ul>
+        </nav>
+    </header>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <img src="apces1.jpg">
+        </div>
+
+        <div class="swiper-slide">
+          <img src="officia.jpg">
+        </div>
+
+        <div class="swiper-slide">
+          <img src="jersey.jpg">
+        </div>
+        
+        <div class="swiper-slide">
+          <img src="celebration1.jpg">
+        </div>
+
+        <div class="swiper-slide">
+          <img src="fieldt1.jpg">
+        </div>
+
+        <div class="swiper-slide">
+          <img src="fieldtb1.jpg">
+        </div>
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <h1>-----------------APCES-----------------</h1>
+    <div id="media">
+      <img src="petrochemcrest.png">
+    </div>
+      
+    <div id="text">
+      <p>
+        Association of petrochemical Engineering Student popularly known as APCES was established in 2019 to bring it members together.<br>
+        The first two years of the programme are the same as for the chemical engineering programme. It is intended to build the student background in chemistry, mathematics and general engineering. The core petrochemical engineering courses are introduced in the third year. The final year courses are  devoted to the applications of the basic principles studied in the earlier years in pollution prevention and control, catalysis, corrosion, petroleum refining, and petrochemical process and plant design.
+      </p>
+    </div>
+    
+  
+    <section id="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Follow Us</h3>
+                <a href="https://twitter.com/knustapces">Twitter</a>
+                <a href="https://www.instagram.com/official_apcesknust/">Instagram</a>
+                <a href="https://www.linkedin.com/mwlite/company/apces-knust">LinkedIn</a>
+            </div>
+            <div class="box">   
+                <h3 id="quick">Quick Links</h3>
+                
+                <a href="https://www.knust.edu.gh/">Knust</a>
+                <a href="https://apps.knust.edu.gh/students/Account/Login">Student Portal</a>
+                <a href="https://myclass.knust.edu.gh/">Virtual Class</a>
+                <a href="https://sites.google.com/view/apcesdrive/home?pli=1">Course Materials</a>
+            </div>
+            <div class="box">
+                <h3>Contact info</h3>
+                <a href="#">knustapces@gmail.com</a>
+                <a href="#">apcesknust@gmail.com</a>
+                <a href="#">+233 55 789 4696</a>
+                <a href="#">+233 55 789 4696</a>
+            </div>
+            
+        </div>
+        <div class="credit">
+             <p> © APCES-KNUST 2022 -All rights reserved. Developed by Tech & Digititalization Comittee, APCES-KNUST</p>
+        </div>
+
+    
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+    <script>
+      const toggleButton = document.getElementsByClassName('bar3')[0]
+      const Navbar = document.getElementsByClassName('navbar')[0]
+      toggleButton.addEventListener('click', () => {
+          Navbar.classList.toggle('active')
+      })
+    </script>
+
+
+  </body>
+</html>
+        
+          
+        
+    
