@@ -215,7 +215,7 @@ h2{
     .navbar ul{
         position: absolute;
         flex-direction: column;
-        height: 70vh;
+        height: 61.5vh;
         background: rgba(105, 97, 104, 0.9);
         width: 100%;
         top: 40px;
