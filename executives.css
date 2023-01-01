@@ -125,17 +125,17 @@ label.logo{
 h1{
     text-align: center;
     width: 100%;
-    font-size: 35px;
+    font-size: 30px;
     color:#000;
 }
 h2{
     text-align: center;
     width: 100%;
-    font-size: 28px;
+    font-size: 25px;
     color:#000;
 }
 #intro{
-    font-size: 25px;
+    font-size: 20px;
     text-align: justify;
     margin: 10px;
 }
@@ -209,26 +209,28 @@ h2{
     }
 
     .bar3{
-        display: flex;
+        display: inline-block;
     }
 
     .navbar ul{
         position: absolute;
         flex-direction: column;
-        height: 61.5vh;
+        height: 24em;
         background: rgba(105, 97, 104, 0.9);
         width: 100%;
         top: 40px;
-        transition: 5s;
     }
 
     .navbar li{
         text-align: center;
+
+
     }
 
+    
     .navbar li a{
-        padding: 0.5em 8rem;
-        font-size: 25px;
+        padding: 0.45em 5rem;
+        font-size: 22px;
         font-weight: normal;
     }
 
@@ -236,7 +238,7 @@ h2{
         display: flex;
         z-index: 500;
     }
-}
+
 
 @media screen and (min-width: 768px ) {
     section{
@@ -260,8 +262,6 @@ h2{
     
 }
 
-
-
 @media screen and (min-width: 992px ) {
     section{
         padding:1em  3em ;
@@ -283,4 +283,52 @@ h2{
         max-width: 33.33%;
     
     }
-} 
+}
+ 
+
+@media (max-width: 786px)
+{
+
+    .navbar ul{
+        height: 24em;
+    }
+
+}
+   
+
+@media (max-width: 486px)
+{   
+    
+    .navbar ul{
+        height: 24em;
+    }
+
+
+    .navbar li a{
+        padding: 0.6em 5rem;
+        font-size: 20px;
+        font-weight: 550;
+
+    }
+
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    #intro{
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 399px)
+{
+    .navbar li a{
+        padding: 0.6em 5rem;
+        font-size: 18px;
+        font-weight: 550;
+
+    } 
+}

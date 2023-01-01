@@ -127,36 +127,37 @@ label.logo{
     }
 
     .bar3{
-        display: flex;
+        display: inline-block;
+
     }
 
     .navbar ul{
         position: absolute;
         flex-direction: column;
-        height: 61.5vh;
+        height: 24em;
         background: rgba(105, 97, 104, 0.9);
         width: 100%;
         top: 40px;
-        transition: 5s ease;
 
     }
 
     .navbar li{
         text-align: center;
 
-
     }
 
     
     .navbar li a{
-        padding: 0.5em 8rem;
-        font-size: 25px;
+        padding: 0.45em 5rem;
+        font-size: 22px;
         font-weight: normal;
+
     }
 
     .navbar.active{
         display: flex;
         z-index: 500;
+
     }
 
     .content h2{
@@ -166,4 +167,38 @@ label.logo{
         font-size: 20px;
 
     }
+}
+
+@media (max-width: 786px)
+{
+
+    .navbar ul{
+        height: 24em;
+    }
+
+}
+   
+
+@media (max-width: 486px)
+{   
+    
+    .navbar ul{
+        height: 24em;
+    }
+
+    .navbar li a{
+        padding: 0.6em 5rem;
+        font-size: 20px;
+        font-weight: 550;
+    }
+
+}
+
+@media (max-width: 399px)
+{
+    .navbar li a{
+        padding: 0.6em 5rem;
+        font-size: 18px;
+        font-weight: 550;
+    } 
 }
