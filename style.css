@@ -266,7 +266,7 @@ label.logo{
    #anouncement ul{
      margin:0 20px;
    }
-   #anouncement ul li a{
+   #anouncement ul li {
     font-size: 20px;
   }
 
