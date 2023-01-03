@@ -325,7 +325,7 @@ label.logo{
     }
 
 
-    .navbar li{
+    .navbar li a{
         padding: 0.6em 5rem;
         font-size: 20px;
         font-weight: 550;
@@ -340,7 +340,7 @@ label.logo{
    }
 
    #text{
-        font-size: 20px;
+        font-size: 19px;
         margin-left: 15px;
         margin-right: 15px;
    }
@@ -349,11 +349,11 @@ label.logo{
         font-size: 18px;
     }
 
-   #anouncement ul li {
-    font-size: 20px;
+   #anouncement ul li{
+    font-size: 19px;
   }
   #footer .credit{
-    font-size: 20px;
+    font-size: 19px;
   }
 
 }
@@ -384,7 +384,7 @@ label.logo{
    }  
 
    #text{
-        font-size:18px;
+        font-size:15px;
         margin-left: 20px;
         margin-right: 20px;
     }
@@ -393,9 +393,9 @@ label.logo{
         font-size: 15px;
     }
 
-    #anouncement ul li {
-    font-size: 18px;
-  }
+    #anouncement ul li{
+        font-size: 15px;
+    }
 
     #footer .box-container{
 
@@ -419,12 +419,21 @@ label.logo{
      h1{
         font-size: 13px;
     }
+
+    #text{
+        font-size: 13px;
+    }
     #anouncement h1{
         font-size: 13px;
     }
     #footer .credit{
         font-size: 13px;
     }
+
+    #anouncement li{
+        font-size: 13px;
+    }
+
 }
 
 
