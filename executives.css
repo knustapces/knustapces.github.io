@@ -88,6 +88,36 @@ label.logo{
     transition: .5s;
 }
 
+h1{
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    color:#000;
+    padding-top:10px ;
+}
+h2{
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+    color:#000;
+}
+#intro{
+    font-size: 20px;
+    text-align: justify;
+    margin: 10px;
+}
+
+.credit{
+    text-align: center;
+    color: #000;
+    border-top: .1rem solid rgba(0,0,0,0.1); 
+    font-size: 20px;
+    font-style: italic;
+    padding: .5rem;
+    padding-top: 1.5rem;
+    margin-top:1.5rem ;
+}
+
 .row{
     display:flex;
     flex-wrap: wrap;
@@ -122,23 +152,6 @@ label.logo{
     text-align: center;
 }
 
-h1{
-    text-align: center;
-    width: 100%;
-    font-size: 30px;
-    color:#000;
-}
-h2{
-    text-align: center;
-    width: 100%;
-    font-size: 25px;
-    color:#000;
-}
-#intro{
-    font-size: 20px;
-    text-align: justify;
-    margin: 10px;
-}
 
 .card{
     width: 100%;
@@ -146,11 +159,10 @@ h2{
     box-shadow: 0 0 0 0.2em rgba(25, 0, 58, 0.1);
     padding:2em 1.5em;
     border-radius:0.6em ;
-    color:#000;
+    color:#000 ;
     cursor: pointer;
     transition: 0.3s;
     background-color:whitesmoke;
-    font-weight: bold;
     
 }
 .card .img-box{
@@ -168,10 +180,10 @@ h2{
 
 }
 .card h3{
-    font-weight:bold;
+    font-weight: bold;
 }
 .card p{
-    font-weight: bold;
+    font-weight: 300;
     text-transform: uppercase;
     margin: 0.5em 0 2em 0;
     letter-spacing: 2px;
@@ -179,25 +191,64 @@ h2{
 .card:hover{
     background: linear-gradient(rgba(241, 18, 189, 0.903),#e419e4ec);
     color: white;
-    font-weight: bold;
 
 }
 .card:hover .img-box{
     transform: scale(1.2);
 }
-.credit{
-    text-align: center;
-    color: #000;
-    border-top: .1rem solid rgba(0,0,0,0.1); 
-    font-size: 20px;
-    font-style: italic;
-    padding: .5rem;
-    padding-top: 1.5rem;
-    margin-top:1.5rem ;
+
+
+@media screen and (min-width: 768px ) {
+    section{
+        padding: 0 2em;
+    }
+    .column{
+        flex: 0 50%;
+        max-width: 50%;
+    
+    }
+    .column2{
+        flex: 0 50%;
+        max-width: 50%;
+    
+    }
+    .column3{
+        flex: 0 50%;
+        max-width: 50%;
+    
+    }
+    
 }
+
+
+
+@media screen and (min-width: 992px ) {
+    section{
+        padding:1em  3em ;
+           
+    }
+    .column{
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    
+    }
+
+    .column2{
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    
+    }
+    .column3{
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    
+    }
+} 
+
 
 @media (max-width: 835px)
 {
+
     header{
         align-items: flex-start;
         flex-direction: column ;
@@ -224,13 +275,11 @@ h2{
     .navbar li{
         text-align: center;
 
-
     }
 
-    
     .navbar li a{
         padding: 0.45em 5rem;
-        font-size: 22px;
+        font-size: 20px;
         font-weight: normal;
     }
 
@@ -238,53 +287,13 @@ h2{
         display: flex;
         z-index: 500;
     }
+   
+  #footer .credit{
+    font-size: 20px;
+  }
+  
 
-
-@media screen and (min-width: 768px ) {
-    section{
-        padding: 0 2em;
-    }
-    .column{
-        flex: 0 50%;
-        max-width: 50%;
-    
-    }
-    .column2{
-        flex: 0 50%;
-        max-width: 50%;
-    
-    }
-    .column3{
-        flex: 0 50%;
-        max-width: 50%;
-    
-    }
-    
 }
-
-@media screen and (min-width: 992px ) {
-    section{
-        padding:1em  3em ;
-           
-    }
-    .column{
-        flex: 0 0 33.33%;
-        max-width: 33.33%;
-    
-    }
-
-    .column2{
-        flex: 0 0 33.33%;
-        max-width: 33.33%;
-    
-    }
-    .column3{
-        flex: 0 0 33.33%;
-        max-width: 33.33%;
-    
-    }
-}
- 
 
 @media (max-width: 786px)
 {
@@ -312,7 +321,7 @@ h2{
     }
 
     h1{
-        font-size: 25px;
+        font-size: 20px;
     }
     h2{
         font-size: 20px;
@@ -321,14 +330,23 @@ h2{
         font-size: 15px;
     }
 
+    .credit{
+        font-size: 15px;
+        font-weight: bold;
+    }
+
 }
 
 @media (max-width: 399px)
 {
     .navbar li a{
         padding: 0.6em 5rem;
-        font-size: 18px;
+        font-size: 15px;
         font-weight: 550;
 
     } 
+    .credit{
+        font-size: 15px;
+        font-weight: bold;
+    }
 }
