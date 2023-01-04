@@ -116,7 +116,7 @@ label.logo{
 
   
 #text{  
-   font-size: 25px; 
+   font-size: 22px; 
    bottom: -25px;
    text-align: justify;
    margin:40px ;
@@ -144,7 +144,7 @@ label.logo{
 
   }
    #anouncement li{
-    font-size: 25px;
+    font-size: 22px;
     list-style: disc;
     text-align: justify; 
     padding: 10px; 
