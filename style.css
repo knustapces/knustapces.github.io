@@ -104,7 +104,11 @@ label.logo{
     width: 100%;
     height: 100%;
     object-fit: cover;
-   
+  }
+
+ }
+  .swiper-pagination-bullet-active{
+    background::#dd4bf5;
   }
 
   h1{
