@@ -88,13 +88,21 @@ label.logo{
     transition: .5s;
 }
 
-h1{
-    text-align: center;
+.top{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(105, 97, 104, 0.7)),url(leader2.png) no-repeat;
+    background-size: cover;
     width: 100%;
-    font-size: 30px;
-    color:#000;
-    padding-top:10px ;
+    height: 50vh;
+    text-align: center;
+    padding-top: 90px;
 }
+.top h2{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
 h2{
     text-align: center;
     width: 100%;
@@ -349,4 +357,18 @@ h2{
         font-size: 15px;
         font-weight: bold;
     }
+    .column {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    }
+    #intro {
+    font-size: 18px;
+    margin: 20px;
+    }
+    .top h2 {
+    font-size: 25px;
 }
+
+}
+
