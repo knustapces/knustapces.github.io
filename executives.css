@@ -293,7 +293,7 @@ h2{
 
     .navbar.active{
         display: flex;
-        z-index: 500;
+        z-index: 200;
     }
    
   #footer .credit{
