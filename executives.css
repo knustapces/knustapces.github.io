@@ -342,6 +342,11 @@ h2{
         font-size: 15px;
         font-weight: bold;
     }
+    .top{
+    background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(105, 97, 104, 0.7)),url(leadus.jpg) no-repeat;
+    background-size: cover;
+    height:20vh;
+}
 
 }
 
@@ -368,11 +373,6 @@ h2{
     }
     .top h2 {
     font-size: 25px;
-}
-.top{
-    background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(105, 97, 104, 0.7)),url(leadus.jpg) no-repeat;
-    background-size: cover;
-    height:20vh;
 }
 
 }
