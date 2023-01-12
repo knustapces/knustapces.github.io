@@ -8,22 +8,21 @@
   body {
     position: relative;
     height: 100%;
-  }
+}
 
  body {
     background: white;
     font-family:Poppins, Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
     color: #000;
     margin: 0;
     padding: 0;
-  }
+}
 
 header{
 	display: flex;
 	justify-content: space-between;
 	text-align: center;
-	background: #696168;
+	background:  #9F3CC2;
 	color: white;
 	height: 50px;
 }
@@ -34,7 +33,7 @@ header img{
 }
 
 label.logo{
-		position: absolute;
+	position: absolute;
     color:#FFFFFF;
     font-size: 40px;
     line-height: 10px;
@@ -44,7 +43,7 @@ label.logo{
     margin-left:20px ;
     top: -2px;
     left: 40px;
-  }
+}
 
 
 .navbar ul{
@@ -64,10 +63,11 @@ label.logo{
 	padding: 1rem;
 	display: block;
 	font-weight: bold;
-	
+    font-size: 14px;	
 }
+
 .navbar li a:hover{
-	 color:#dd4bf5;
+	 color:#f6eB07;
     transition: .5s;
 }
 
@@ -80,124 +80,552 @@ label.logo{
 	font-size: 25px;
 	font-weight: bold;
 	cursor: pointer;
-
 }
 
 .bar3:hover{
-	color:#dd4bf5;
+	color:#f6eB07;
     transition: .5s;
 }
-
+                                      /* Home section */
 
  .swiper {
     width: 100%;
-    height: 70%;
-  }
+    height: 80%;
+}
 
  .swiper-slide {
     font-size: 18px;
     position: relative;
-    }
+}
 
   .swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover; 
   }
 
- .swiper-pagination-bullet-active{
-    background: #dd4bf5;
+  .swiper-pagination-bullet-active{
+    background: #9F3CC2;
   }
 
-  h1{
-  text-align: center;
-  position: relative;
-  top: 20px;
+ h1{
+    margin-top: 30px;
+    text-align: center;
+    color:#9F3CC2;
+    font-size: 30px;
+    font-weight: bold;  
+}
+
+#intro{
+    position: relative;
+    background:#fff ;
+     width: 100%;
+    height: 500px;
+}
+
+#media{
+    position: relative;
+    display: inline-block;
+    width: 40%;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+#media img{
+    display: block;
+    height:250px ;
+    width:250px ;
+    margin: auto;
+
+}
+
+#text{ 
+    position:absolute;
+    top: 8em;
+    display: inline-block;
+    width: 50%;
+   text-align: justify;
+   margin:0 40px ;
+   font-size: 20px;
 }
 
 
-  
-#text{  
-   font-size: 22px; 
-   bottom: -25px;
-   text-align: justify;
-   margin:40px ;
-  }
+#text p{
+    font-style: italic;
+
+}
+
+#anouncement{
+    margin-bottom: 0px;
+    background:#fff;
+     width: 100%;
+    height: auto;
+}
+
+#media2{
+    position: relative;
+    display: inline-block;
+    width: 40%;
+    top: -30px;
+    padding-left: 120px;
+    padding-top: 0px;
 
 
- #media img{
- 	position: relative;
+}
+#media2 img{
     display: block;
-    width: 200px;
-    height:200px;
-    margin-left: auto;
-    margin-right: auto;
-    top: 30px;
+    height:300px ;
+    width:300px ;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+#anounce{ 
+    position: relative;
+    display: inline-block;
+    width: 50%;
+   text-align: justify;
+   margin:0 40px ;
+   font-size: 20px;
+   bottom: 40px;
   }
 
-   #anouncement h1{
-    margin: 25px 0;
 
-   }
-   #anouncement ul{
+
+#anounce ul{
     display: block;
     margin: 25px;
-    padding: 0 25px;
+    padding: 0 30px;
 
-  }
-   #anouncement li{
-    font-size: 22px;
+}
+#anounce li{
     list-style: disc;
+
     text-align: justify; 
-    padding: 10px; 
-  }
-  
+    padding: 10px;
+    font-size: 20px;
+}
+    
+    /* Event section */
+
+#events{
+    background: #eee;
+}
+
+#head {
+    color:#9F3CC2;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#events p{
+    font-size: 15px;
+    text-align: justify;
+
+}
+#events span{
+    text-align: left;
+    font-size: 13px;
+    display: block;
+    font-style: italic;
+}
+#click{
+    color:#9F3CC2;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#click:hover{
+    color:#f6eB07;
+
+}
+
+#events .box-container{
+  position: relative;
+  top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(18rem,1fr));
+  gap:1.5rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+
+}
+
+#events .box-container .box {
+    position: relative;
+    padding: 1rem 1rem;
+    color: #000;
+    background: white;
+    border:1px solid rgba(0, 0, 0, 0.2) ;
+    overflow: hidden;
+    text-align: center;
+ }
+ .space{
+    background:#eee;
+    height: 50px;
+ }
+
+    /* Footer Section */
+#footer{
+    background: linear-gradient(rgba(159, 60, 194, 0.9),rgba(159, 60, 194, 0.9)),url(images/logo.png) no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+     /*  background: rgba(0, 0, 0, 0.5); background: rgba(159, 60, 194, 0.7);*/
+}
+
 #footer .box-container{
   position: relative;
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
   gap:1.9rem;
-  background: #eee;
   top: 30px;
+
 }
 
 
 #footer .box-container .box {
-    padding: 2rem 6rem;
+    padding: 1rem 6rem;
     font-size: 25px;
-    color: #000;
+    color: #E8DB07;
 }
 
 #footer .box-container .box a {
     padding: 0.5rem 0;
     display: block;
     font-size: 20px;
-    color: rgb(105, 103, 103);
+    color: white;
     text-decoration: none;
 
 }
 #footer .box-container .box a:hover{
-    color: #dd4bf5;
+    color:#f6eB07 ;
     text-decoration:underline;
 }
 
-
-
 .credit{
     text-align: center;
-    color: #000;
-    border-top: .1rem solid rgba(0,0,0,0.1); 
+    color: #fff;
+    border-top: 1px solid white; 
     font-size: 20px;
     font-style: italic;
     padding: .5rem;
     padding-top: 1.5rem;
     margin-top:1.5rem;
     font-style: italic;
+}
+.credit a{
+    text-decoration: none;
+    color: white;
+}
+
+
+        /* Event page */
+
+.topE{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(105, 97, 104, 0.7)),url(images/events.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    padding-top: 90px;
+    color: white;
+    font-size: 30px;
+}
+
+#event{
+    font-size: 20px;
+    margin: 30px;
+    padding: 0;
+
+}
+#event1{
+    width: 50%;
+    position: absolute;
+    top: 82%;
+    left: 45%;
+}
+#event2{
+    width: 50%;
+    position: absolute;
+    top: 150%;
+    left: 45%;
+}
+#event3{
+    width: 50%;
+    position: absolute;
+    top: 210%;
+    left: 45%;
+}
+ 
+    #event img{
+        width:40% ;
+        height:40% ;
+
+    }
+    #event span{
+        display: block;
+        width: 40%;
+        font-style: italic;
+    }
+
+    #event p{
+        text-align: justify;
+
+
+    }
+    #event h2{
+        text-align: center;
+        margin-bottom: 20px;
+        color:#dd4bf5 ;
+
+    }
+                                                /* About page */
+
+.bg{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(105, 97, 104, 0.7)),url(images/about.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 55vh;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    font-size: 30px;
+}
+
+
+.content p{
+    padding: 20px 30px;
+    color: black;
+    font-size: 20px;
+    margin: 5px;
+}
+
+                                    /* Exectives page */
+
+
+
+.top{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(105, 97, 104, 0.7)),url(images/lead.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.top h2{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
 
 }
 
-@media (max-width: 835px)
+#heads{
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+    color:#dd4bf5;
+}
+#executive_intro {
+    font-size: 20px;
+    text-align: justify;
+    padding: 20px;
+}
+
+
+.row{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.row2{
+    display:flex;
+    flex-wrap: wrap;   
+}
+
+.row3{
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+
+.column{
+    width:100%;
+    padding:2%;
+    text-align: center;
+}
+
+.column2{
+    width:100%;
+    padding:2%;
+    text-align: center;
+}
+
+.column3{
+    width:100%;
+    padding:2%;
+    text-align: center;
+}
+
+
+.card{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 0 0.2em rgba(25, 0, 58, 0.1);
+    padding:2em 1.5em;
+    border-radius:0.6em ;
+    color:#000 ;
+    transition: 0.3s;
+    background-color:whitesmoke;
+    
+}
+.card .img-box{
+    width: 10em;
+    height: 10em;
+    background-color:darkviolet ;
+    padding: 0.2em 0.2em 0.5em 0.2em;
+    border-radius: 50%;
+    margin: 0 auto 2em auto;
+}
+.card img{
+    width: 100%;
+    border-radius: 50%;
+    height: 9.7em;
+
+}
+.card h3{
+    font-weight: bold;
+}
+.card p{
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0.5em 0 2em 0;
+    letter-spacing: 2px;
+}
+.card:hover{
+    background: linear-gradient(rgba(241, 18, 189, 0.903),#e419e4ec);
+    color: white;
+
+}
+.card:hover .img-box{
+    transform: scale(1.2);
+}
+#social{
+    font-size: 20px;
+     letter-spacing: 15px;
+     color: white;
+
+}
+#social a{
+    color: black;
+}
+
+#social a:hover{
+    color:white;
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 786px ) {
+    section{
+        padding: 0 2em;
+    }
+    .column{
+        flex: 0 50%;
+        max-width: 50%;
+    
+    }
+    .column2{
+        flex: 0 50%;
+        max-width: 50%;
+    
+    }
+    .column3{
+        flex: 0 50%;
+        max-width: 50%;
+    
+    }
+    
+}
+
+@media screen and (min-width: 992px ) {
+    section{
+        padding:1em  3em ;
+           
+    }
+    .column{
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    
+    }
+
+    .column2{
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    
+    }
+    .column3{
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    
+    }
+} 
+
+@media (max-width: 960px)
+{
+
+    #text {
+    top: 7em;
+    margin: 0 25px;
+    font-size: 20px;
+    }
+
+    #media {
+        top:10px ;
+    }
+
+    #media2{
+    top: -45px;
+    padding-left: 120px;
+    }
+    
+
+    #anounce{ 
+    margin:0 40px ;
+   
+    bottom: 20px;
+    }
+
+    #event1{
+    width: 54%;
+    position: absolute;
+    top: 75%;
+    left: 43%;
+    }
+
+    #event2{
+    width: 54%;
+    position: absolute;
+    top: 129%;
+    left: 43%;
+    }
+    
+    #event3{
+    width: 54%;
+    position: absolute;
+    top: 176%;
+    left: 43%;
+    }    
+}
+
+@media (max-width: 900px)
 {
 
     .swiper {
@@ -223,7 +651,7 @@ label.logo{
 		position: absolute;
 		flex-direction: column;
 		height: 24em;
-		background: rgba(105, 97, 104, 0.9);
+		background: rgba(159, 60, 194, 0.9);
 		width: 100%;
 		top: 40px;
 	}
@@ -245,62 +673,202 @@ label.logo{
 	}
 
 	h1{
-   		font-size: 22px;
-
+   	font-size: 22px;
   	}
-
-    #anouncement h1{
-        font-size: 22px;
-    }
+    
 
    #text{
-        position: relative;
-        top: 25px;
-    	font-size: 20px;
-    	margin-left: 30px;
-    	margin-right: 20px;
+    position: relative;
+    top: 25px;
+	font-size: 18px;
+	margin-left: 30px;
+	margin-right: 20px;
    }
 
-   #media img{
-    	position: relative;
-        top: 30px;
+   #media {
+        top: 0px;
    }
+
+   #text {
+    top: 0.2em;
+    margin: 0 25px;
+    font-size: 18px;
+    
+    }
+
+    #media2{
+    top: -95px;
+    padding-left: 75px;
+  1 }
+
+    #media2 img {
+    height: 250px;
+    width: 250px;
+    position: relative;
+    bottom: 20px;
+    }
+
+    #anounce {
+    margin: 0 20px;
+    bottom: 10px;
+    }
 
    #anouncement ul{
      margin:0 20px;
-   }
-   #anouncement ul li {
-    font-size: 20px;
-  }
+     }
+    #anouncement ul li{
+     font-size: 18px;
+    }
 
   #footer .credit{
     text-align: 20px;
-  }
+   }
   
+    /* About*/
+
+  .content h2{
+        font-size: 25px;
+    }
+    .content p{
+        font-size: 20px;
+
+    }
+
+    #event1 {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    }
+
+    #event2 {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width:100%;
+
+    }
+    #event3 {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width:100%;
+    }
+    #event{
+    font-size: 18px;
+    display: block;
+    margin: 30px;
+    }
+     #event img{
+    width:100% ;
+    height:40% ;
+    }
+    #event span{
+    display: inline;
+    }
+    #event h2{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 25px;
+    }
+
+    .top h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
 
 }
 
-@media (max-width: 786px)
-{
-    .swiper {
-    width: 100%;
-    height: 60%;
-    }
 
+@media (max-width: 750px)
+{
+    
     .navbar ul{
         height: 24em;
     }
 
-
-    h1{
-        font-size: 22px;
+    #intro{
+        height: auto;
     }
 
-   #text{
-        font-size: 20px;
-        margin-left: 30px;
-        margin-right: 30px;
+    #media {
+    display: block ;
+    width: 100%;
+    top: 0px;
+    margin: 0px;
+    padding: 0;
+    height: auto;
+    }
+
+     #media img {
+    position: relative;
+    margin: 0 100px;
+    height: 200px;
+    width: 200px;
+    left: 100px;
+    top: 0;
+    }
+
+   #text {
+    top:-0.1em ;
+    display: block;
+    font-size: 15px;
+    width: 95%;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 0px;
+        
    }
+   #anouncement {
+    margin-bottom:0;
+    background: #fff;
+    width: 100%;
+    height: auto;
+    }
+
+   #anounce {
+    position: relative;
+    width: 100%;
+    text-align: justify;
+    margin: 0;
+    top: 0;
+    font-size: 20px;
+     
+    }
+   #media2 {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    top: 10px;
+    padding-top: 20px;
+    
+    }
+   #media2 img {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    
+    }
+    
+    #anounce ul {
+    margin: 25px;
+    padding: 0 25px;
+    }
+
+   #anouncement h1{
+    font-size: 18px;
+    }
+
+   #anouncement ul li{
+    font-size: 15px;
+    }
+
+  #footer .credit{
+    font-size: 19px;
+    }
 
    #footer .box-container{
     grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
@@ -313,60 +881,144 @@ label.logo{
 
     #footer .box-container .box  a{
         font-size: 18px;
+    }
 }
-   
 
-@media (max-width: 486px)
+@media (max-width: 500px)
 {   
-    .swiper {
-        width: 100%;
-        height: 60%;
-  }
 
     .navbar ul{
         height: 24em;
     }
 
-
     .navbar li a{
         padding: 0.6em 5rem;
         font-size: 20px;
         font-weight: 550;
-
     }
- 
 
-    h1{
-        font-size: 18px;
-        margin-left: 10px;
-        margin-right: 10px;
+    #executive_intro {
+    font-size: 18px;
+    
+    }
+
+    .content p {
+    font-size: 18px;
+    }
+
+    #intro{
+        height: auto;
+    }
+
+    #media {
+        display: block ;
+        width: 100%;
+        top: 0px;
+        margin: 0px;
+        padding: 0;
+        height: auto;
+    }
+     #media img {
+        position: relative;
+        margin: 0 30px;
+        height: 200px;
+        width: 200px;
+        left: 75px;
+        top: 0;
+    }
+
+   #text {
+    top:-0.1em ;
+    display: block;
+    font-size: 15px;
+    width: 95%;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 20px;
    }
 
-   #text{
-        font-size: 19px;
-        margin-left: 15px;
-        margin-right: 15px;
-   }
+   #anouncement {
+    margin-bottom:0;
+    background: #fff;
+    width: 100%;
+    height: auto;
+    }
+
+   #anounce {
+    position: relative;
+    width: 100%;
+    text-align: justify;
+    margin: 0;
+    top: 0;
+    font-size: 20px; 
+    }
+
+   #media2 {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding-left: 30px;
+    top:0 ;
+    bottom: 0;
+    }
+
+   #media2 img {
+    height: 200px;
+    width: 200px;
+    }
+
+    #anounce ul {
+    margin: 25px;
+    padding: 0 25px;
+    }
 
    #anouncement h1{
         font-size: 18px;
     }
 
    #anouncement ul li{
-    font-size: 19px;
-  }
+    font-size: 15px;
+    }
   #footer .credit{
     font-size: 19px;
-  }
+    }
 
+    .top{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(105, 97, 104, 0.7)),url(images/smalllead.jpg) no-repeat;
+    height: 40vh;    
+    }
+
+    .top h2 {
+    font-size: 25px;
+    }
+
+    .bg{
+    font-size: 20px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(105, 97, 104, 0.7)),url(images/smallabout.jpg) no-repeat;
+    height: 40vh;
+    }
+
+    .topE{
+    height: 40vh;
+    }
+
+    .topE h2{
+        font-size: 25px;
+    }
+    
+    #event h2{
+        font-size: 20px;
+    }
+
+    #event {
+    font-size: 15px;
+    }
+
+    
 }
 
-@media (max-width: 399px)
+@media (max-width: 400px)
 {
-     .swiper {
-        width: 100%;
-        height: 60%;
-    }
 
     .navbar ul{
         height: 24em;
@@ -384,16 +1036,24 @@ label.logo{
         font-size: 15px;
         margin-left: 5px;
         margin-right: 5px;
-   }  
+   }
 
-   #text{
-        font-size:15px;
-        margin-left: 20px;
-        margin-right: 20px;
+   
+   #media img {
+    position: relative;
+    margin: 0 15px;
+     left: 75px;
+
+   } 
+
+   #text {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 20px;
     }
 
     #anouncement h1{
-        font-size: 15px;
+        font-size: 20px;
     }
 
     #anouncement ul li{
@@ -414,31 +1074,75 @@ label.logo{
     #footer .box-container .box  a{
         font-size: 15px;
     }
+
+    #event h2 {
+        font-size: 20px;
+    }
+
+    .top h2 {
+    font-size: 20px;
+    }
+
+    .bg{
+        font-size:18px;
+    }
   
 }
 
-@media (max-width: 289px)
+@media (max-width: 319px)
 {
      h1{
-        font-size: 13px;
+        font-size: 15px;
     }
 
     #text{
-        font-size: 13px;
+        font-size: 15px;
     }
     #anouncement h1{
-        font-size: 13px;
+        font-size: 15px;
     }
     #footer .credit{
-        font-size: 13px;
+        font-size: 15px;
     }
 
     #anouncement li{
-        font-size: 13px;
+        font-size: 15px;
     }
 
+    .top h2 {
+    font-size: 20px;
+    }
+
+    #media2 img {
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    }
+
+    #media img {
+    height: 150px;
+    width: 150px;
+    left: 55px;
+    }
+
+    #events .box-container {
+    grid-template-columns: repeat(auto-fit,minmax(18rem,1fr));
+    gap: 1.5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    }
+    #events .box-container .box {
+    position: relative;
+    padding: 1px
+    
+    }
+     #events .box-container .box  img{
+            width: 250px;
+     }
+
+     #event h2 {
+    font-size: 20px;
 }
 
-
-
-
+}
