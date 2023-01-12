@@ -103,11 +103,21 @@ label.logo{
     width: 100%;
     height: 100%;
     object-fit: cover; 
-  }
+}
 
   .swiper-pagination-bullet-active{
     background: #9F3CC2;
-  }
+}
+
+.bgswipe{
+  position: relative;
+  bottom: 500px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height:100vh;
+  
+}
 
  h1{
     margin-top: 30px;
@@ -150,10 +160,8 @@ label.logo{
    font-size: 20px;
 }
 
-
 #text p{
     font-style: italic;
-
 }
 
 #anouncement{
@@ -170,9 +178,8 @@ label.logo{
     top: -30px;
     padding-left: 120px;
     padding-top: 0px;
-
-
 }
+
 #media2 img{
     display: block;
     height:300px ;
@@ -191,17 +198,14 @@ label.logo{
    bottom: 40px;
   }
 
-
-
 #anounce ul{
     display: block;
     margin: 25px;
     padding: 0 30px;
-
 }
+
 #anounce li{
     list-style: disc;
-
     text-align: justify; 
     padding: 10px;
     font-size: 20px;
@@ -224,12 +228,18 @@ label.logo{
     text-align: justify;
 
 }
-#events span{
+#date{
     text-align: left;
-    font-size: 13px;
+    font-size: 15px;
     display: block;
     font-style: italic;
 }
+#icon{
+    color:#9F3CC2;
+    font-size:20px;
+    letter-spacing: 10px;
+}
+
 #click{
     color:#9F3CC2;
     text-decoration: none;
@@ -238,7 +248,6 @@ label.logo{
 
 #click:hover{
     color:#f6eB07;
-
 }
 
 #events .box-container{
@@ -250,7 +259,6 @@ label.logo{
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
-
 }
 
 #events .box-container .box {
@@ -262,6 +270,7 @@ label.logo{
     overflow: hidden;
     text-align: center;
  }
+ 
  .space{
     background:#eee;
     height: 50px;
@@ -269,7 +278,7 @@ label.logo{
 
     /* Footer Section */
 #footer{
-    background: linear-gradient(rgba(159, 60, 194, 0.9),rgba(159, 60, 194, 0.9)),url(images/logo.png) no-repeat;
+    background: linear-gradient(rgba(159, 60, 194, 0.9),rgba(159, 60, 194, 0.9)),url(images/footerlogo.png) no-repeat;
     background-position-x: center;
     background-position-y: center;
      /*  background: rgba(0, 0, 0, 0.5); background: rgba(159, 60, 194, 0.7);*/
@@ -281,9 +290,7 @@ label.logo{
   grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
   gap:1.9rem;
   top: 30px;
-
 }
-
 
 #footer .box-container .box {
     padding: 1rem 6rem;
@@ -334,53 +341,55 @@ label.logo{
     font-size: 30px;
 }
 
+ #event1 {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    }
+
+#event2 {
+position: relative;
+top: 0%;
+left: 0%;
+width:100%;
+}
+
+#event3 {
+position: relative;
+top: 0%;
+left: 0%;
+width:100%;
+}
+
 #event{
-    font-size: 20px;
-    margin: 30px;
-    padding: 0;
+font-size: 20px;
+display: block;
+margin: 30px;
+}
+
+ #event img{
+width:50% ;
+height:40% ;
+}
+
+#event span{
+    display: block;
+    width: 40%;
+    font-style: italic;
+}
+
+#event p{
+    text-align: justify;
+
 
 }
-#event1{
-    width: 50%;
-    position: absolute;
-    top: 82%;
-    left: 45%;
+#event h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color:#9F3CC2 ;
+
 }
-#event2{
-    width: 50%;
-    position: absolute;
-    top: 150%;
-    left: 45%;
-}
-#event3{
-    width: 50%;
-    position: absolute;
-    top: 210%;
-    left: 45%;
-}
- 
-    #event img{
-        width:40% ;
-        height:40% ;
-
-    }
-    #event span{
-        display: block;
-        width: 40%;
-        font-style: italic;
-    }
-
-    #event p{
-        text-align: justify;
-
-
-    }
-    #event h2{
-        text-align: center;
-        margin-bottom: 20px;
-        color:#dd4bf5 ;
-
-    }
                                                 /* About page */
 
 .bg{
@@ -419,21 +428,19 @@ label.logo{
     color: white;
     font-size: 40px;
     font-weight: bold;
-
 }
 
 #heads{
     text-align: center;
     width: 100%;
     font-size: 25px;
-    color:#dd4bf5;
+    color:#9F3CC2;
 }
 #executive_intro {
     font-size: 20px;
     text-align: justify;
     padding: 20px;
 }
-
 
 .row{
     display:flex;
@@ -447,8 +454,7 @@ label.logo{
 
 .row3{
     display:flex;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;   
 }
 
 .column{
@@ -468,7 +474,6 @@ label.logo{
     padding:2%;
     text-align: center;
 }
-
 
 .card{
     width: 100%;
@@ -498,17 +503,19 @@ label.logo{
 .card h3{
     font-weight: bold;
 }
+
 .card p{
     font-weight: 300;
     text-transform: uppercase;
     margin: 0.5em 0 2em 0;
     letter-spacing: 2px;
 }
-.card:hover{
-    background: linear-gradient(rgba(241, 18, 189, 0.903),#e419e4ec);
-    color: white;
 
+.card:hover{
+    background: linear-gradient(rgba(241, 18, 189, 0.903),#9F3CC2);
+    color: white;
 }
+
 .card:hover .img-box{
     transform: scale(1.2);
 }
@@ -516,8 +523,8 @@ label.logo{
     font-size: 20px;
      letter-spacing: 15px;
      color: white;
-
 }
+
 #social a{
     color: black;
 }
@@ -527,13 +534,8 @@ label.logo{
     transform: scale(1.2);
 }
 
-
-
-
-
-
-
-@media screen and (min-width: 786px ) {
+@media screen and (min-width: 786px ) 
+{
     section{
         padding: 0 2em;
     }
@@ -555,32 +557,28 @@ label.logo{
     
 }
 
-@media screen and (min-width: 992px ) {
+@media screen and (min-width: 992px ) 
+{
     section{
-        padding:1em  3em ;
-           
+        padding:1em  3em ;      
     }
     .column{
         flex: 0 0 33.33%;
         max-width: 33.33%;
-    
     }
 
     .column2{
         flex: 0 0 33.33%;
         max-width: 33.33%;
-    
     }
     .column3{
         flex: 0 0 33.33%;
         max-width: 33.33%;
-    
     }
 } 
 
-@media (max-width: 960px)
+@media (max-width: 1200px)
 {
-
     #text {
     top: 7em;
     margin: 0 25px;
@@ -596,34 +594,14 @@ label.logo{
     padding-left: 120px;
     }
     
-
     #anounce{ 
     margin:0 40px ;
-   
     bottom: 20px;
     }
 
-    #event1{
-    width: 54%;
-    position: absolute;
-    top: 75%;
-    left: 43%;
+    .bgswipe{
+        height: 120vh;    
     }
-
-    #event2{
-    width: 54%;
-    position: absolute;
-    top: 129%;
-    left: 43%;
-    }
-    
-    #event3{
-    width: 54%;
-    position: absolute;
-    top: 176%;
-    left: 43%;
-    }    
-}
 
 @media (max-width: 900px)
 {
@@ -640,7 +618,6 @@ label.logo{
 
 	.navbar{
 		display: none;
-
 	}
 
 	.bar3{
@@ -676,7 +653,6 @@ label.logo{
    	font-size: 22px;
   	}
     
-
    #text{
     position: relative;
     top: 25px;
@@ -693,13 +669,12 @@ label.logo{
     top: 0.2em;
     margin: 0 25px;
     font-size: 18px;
-    
     }
 
     #media2{
     top: -95px;
     padding-left: 75px;
-  1 }
+    }
 
     #media2 img {
     height: 250px;
@@ -713,25 +688,23 @@ label.logo{
     bottom: 10px;
     }
 
-   #anouncement ul{
+    #anouncement ul{
      margin:0 20px;
      }
+
     #anouncement ul li{
      font-size: 18px;
     }
 
-  #footer .credit{
+   #footer .credit{
     text-align: 20px;
    }
-  
-    /* About*/
 
-  .content h2{
+   .content h2{
         font-size: 25px;
     }
     .content p{
         font-size: 20px;
-
     }
 
     #event1 {
@@ -746,26 +719,30 @@ label.logo{
     top: 0%;
     left: 0%;
     width:100%;
-
     }
+
     #event3 {
     position: relative;
     top: 0%;
     left: 0%;
     width:100%;
     }
+
     #event{
     font-size: 18px;
     display: block;
     margin: 30px;
     }
+
      #event img{
     width:100% ;
     height:40% ;
     }
+
     #event span{
     display: inline;
     }
+
     #event h2{
     text-align: center;
     margin: 20px 0;
@@ -776,15 +753,12 @@ label.logo{
     color: white;
     font-size: 40px;
     font-weight: bold;
-}
-
-
+    }
 }
 
 
 @media (max-width: 750px)
-{
-    
+{ 
     .navbar ul{
         height: 24em;
     }
@@ -818,9 +792,9 @@ label.logo{
     width: 95%;
     margin-top: 0px;
     margin-left: 15px;
-    margin-right: 0px;
-        
+    margin-right: 0px;    
    }
+
    #anouncement {
     margin-bottom:0;
     background: #fff;
@@ -850,7 +824,6 @@ label.logo{
     height: 200px;
     width: 200px;
     margin: auto;
-    
     }
     
     #anounce ul {
@@ -899,7 +872,6 @@ label.logo{
 
     #executive_intro {
     font-size: 18px;
-    
     }
 
     .content p {
@@ -979,6 +951,7 @@ label.logo{
    #anouncement ul li{
     font-size: 15px;
     }
+
   #footer .credit{
     font-size: 19px;
     }
@@ -1012,24 +985,19 @@ label.logo{
 
     #event {
     font-size: 15px;
-    }
-
-    
+    } 
 }
 
 @media (max-width: 400px)
 {
-
     .navbar ul{
         height: 24em;
     }
-
 
     .navbar li a{
         padding: 0.6em 5rem;
         font-size: 18px;
         font-weight: 550;
-
     }
 
     h1{
@@ -1038,12 +1006,10 @@ label.logo{
         margin-right: 5px;
    }
 
-   
    #media img {
     position: relative;
     margin: 0 15px;
      left: 75px;
-
    } 
 
    #text {
@@ -1068,7 +1034,6 @@ label.logo{
         padding: 2rem 3rem;
     
         font-size:15px ;
-    
     }
 
     #footer .box-container .box  a{
@@ -1085,8 +1050,7 @@ label.logo{
 
     .bg{
         font-size:18px;
-    }
-  
+    } 
 }
 
 @media (max-width: 319px)
@@ -1137,12 +1101,11 @@ label.logo{
     padding: 1px
     
     }
-     #events .box-container .box  img{
+    #events .box-container .box  img{
             width: 250px;
-     }
+    }
 
-     #event h2 {
+    #event h2 {
     font-size: 20px;
 }
-
 }
