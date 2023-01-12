@@ -110,6 +110,7 @@ label.logo{
 }
 
 .bgswipe{
+  display:none
   position: relative;
   bottom: 500px;
   left: 0px;
@@ -608,7 +609,7 @@ height:40% ;
 
     .swiper {
     width: 100%;
-    height: 80%;
+    height: 0%;
    }
 
 	header{
@@ -750,7 +751,7 @@ height:40% ;
     }
 
     .top h2 {
-    color: blue;
+    color: white;
     font-size: 30px;
     font-weight: bold;
     }
@@ -880,7 +881,6 @@ height:40% ;
 
     #executive_intro {
     font-size: 18px;
-    color:blue
     }
 
     .content p {
@@ -889,7 +889,6 @@ height:40% ;
 
     #intro{
         height: auto;
-        margin:10px;
     }
 
     #media {
@@ -916,7 +915,7 @@ height:40% ;
     width: 95%;
     margin-top: 0px;
     margin-left: 10px;
-    margin-right: 20px;
+    margin-right: 10px;
    }
 
    #anouncement {
