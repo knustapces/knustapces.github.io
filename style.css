@@ -860,7 +860,7 @@ height:40% ;
         font-size: 18px;
     }
     bgswipe{
-        height: 120vh;    
+        height: 100vh;    
     }
 }
 
@@ -888,7 +888,7 @@ height:40% ;
 
     #intro{
         height: auto;
-        margin:20px;
+        margin:10px;
     }
 
     #media {
