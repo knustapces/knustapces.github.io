@@ -750,13 +750,13 @@ height:40% ;
     }
 
     .top h2 {
-    color: white;
-    font-size: 40px;
+    color: blue;
+    font-size: 30px;
     font-weight: bold;
     }
 
     .bgswipe{
-        height: 120vh;    
+        height: 100vh;    
     }
 }
 
@@ -880,6 +880,7 @@ height:40% ;
 
     #executive_intro {
     font-size: 18px;
+    color:blue
     }
 
     .content p {
