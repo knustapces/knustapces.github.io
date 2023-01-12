@@ -9,23 +9,38 @@
 
 <url>
   <loc>https://knustapces.github.io/</loc>
-  <lastmod>2023-01-05T19:35:33+00:00</lastmod>
+  <lastmod>2023-01-12T04:39:23+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://knustapces.github.io/index</loc>
-  <lastmod>2023-01-05T19:35:33+00:00</lastmod>
+  <lastmod>2023-01-12T04:39:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://knustapces.github.io/executives</loc>
-  <lastmod>2023-01-05T19:35:33+00:00</lastmod>
+  <loc>https://knustapces.github.io/executives.html</loc>
+  <lastmod>2023-01-12T04:39:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://knustapces.github.io/event</loc>
+  <lastmod>2023-01-12T04:39:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://knustapces.github.io/about</loc>
-  <lastmod>2023-01-05T19:35:33+00:00</lastmod>
+  <lastmod>2023-01-12T04:39:23+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://knustapces.github.io/event.html</loc>
+  <lastmod>2023-01-12T04:39:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://knustapces.github.io/executives</loc>
+  <lastmod>2023-01-12T04:39:23+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
