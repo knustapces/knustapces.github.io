@@ -115,7 +115,7 @@ label.logo{
   left: 0px;
   background: rgba(0, 0, 0, 0.9);
   width: 100%;
-  height:200%;
+  height:500%;
   
 }
 
@@ -863,9 +863,10 @@ height:40% ;
 
 @media (max-width: 500px)
 {   
-     bgswipe{
-        height: 2vh;    
-    }
+    swiper {
+    width: 100%;
+    height: 80%;
+   }
     
     .navbar ul{
         height: 24em;
