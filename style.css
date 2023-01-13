@@ -756,7 +756,7 @@ height:40% ;
     }
 
     .bgswipe{
-        height: 100vh;    
+        height: 100%;    
     }
 }
 
@@ -859,7 +859,7 @@ height:40% ;
     #footer .box-container .box  a{
         font-size: 18px;
     }
-    bgswipe{
+    .bgswipe{
         height: 100vh;    
     }
 }
@@ -867,7 +867,10 @@ height:40% ;
 
 @media (max-width: 500px)
 {   
-
+     bgswipe{
+        height: 2vh;    
+    }
+    
     .navbar ul{
         height: 24em;
     }
