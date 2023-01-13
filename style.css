@@ -110,13 +110,12 @@ label.logo{
 }
 
 .bgswipe{
-  display:none
   position: relative;
   bottom: 500px;
   left: 0px;
   background: rgba(0, 0, 0, 0.25);
   width: 100%;
-  height:120%;
+  height:102%;
   
 }
 
@@ -609,7 +608,7 @@ height:40% ;
 
     .swiper {
     width: 100%;
-    height: 0%;
+    height: 2%;
    }
 
 	header{
