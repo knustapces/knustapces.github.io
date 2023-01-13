@@ -115,7 +115,7 @@ label.logo{
   left: 0px;
   background: rgba(0, 0, 0, 0.9);
   width: 100%;
-  height:150%;
+  height:200%;
   
 }
 
@@ -599,16 +599,13 @@ height:40% ;
     bottom: 20px;
     }
 
-    .bgswipe{
-        height: 150%;    
-    }
 
 @media (max-width: 900px)
 {
 
     .swiper {
     width: 100%;
-    height: 50%;
+    height: 100%;
    }
 
 	header{
@@ -756,7 +753,7 @@ height:40% ;
     }
 
     .bgswipe{
-        height: 100vh;    
+        height: 200%;    
     }
 }
 
@@ -859,8 +856,7 @@ height:40% ;
     #footer .box-container .box  a{
         font-size: 18px;
     }
-    .bgswipe{
-        height: 100vh;    
+    
     }
 }
 
