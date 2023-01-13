@@ -163,7 +163,7 @@ label.logo{
 
 #text p{
     font-style: italic;
-    color:pink
+    color:pink;
 }
 
 #anouncement{
@@ -600,6 +600,11 @@ height:40% ;
     margin:0 40px ;
     bottom: 20px;
     }
+    #text p{
+    font-style: italic;
+    color: pink
+    }
+}
 
 
 @media (max-width: 900px)
