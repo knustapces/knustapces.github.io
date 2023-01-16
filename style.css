@@ -986,8 +986,8 @@ label.logo{
 	   height:15vh;
            margin:7.5vh 0;
            padding:3.75px 0;
-           border:5px solid;
      }
+
 
     .bg{
     background: linear-gradient(rgba(0,0,0,0.5),rgba(105, 97, 104, 0.7)),url(images/smallabout.jpg) no-repeat;
@@ -997,11 +997,12 @@ label.logo{
     .bg .heading{
 	    height:14vh;
             margin:7vh 0;
-            padding:3.5vh 0;
-            
-           
-
+            padding:3.5vh 0;      
     }
+     bg .heading h2{
+        font-size:22px;
+     }
+
     .heading h2{
 	    font-size:25px;
 	}
