@@ -985,6 +985,8 @@ label.logo{
    .top .heading{
 	   height:15vh;
            margin:7.5vh 0;
+           padding:3.75px 0;
+           border:5px solid;
      }
 
     .bg{
@@ -1009,11 +1011,11 @@ label.logo{
     height: 35vh;
     }
 	
-   .bg .heading{
+   .topE .heading{
 	    height:17.5vh;
             margin:8.75vh 0;
             padding:4.375vh 0;
-            border:5px solid;
+            
   
         }
     
