@@ -996,7 +996,7 @@ label.logo{
 	    height:14vh;
             margin:7vh 0;
             padding:3.5vh 0;
-            border:5px solid;
+            
            
 
     }
@@ -1013,6 +1013,8 @@ label.logo{
 	    height:17.5vh;
             margin:8.75vh 0;
             padding:4.375vh 0;
+            border:5px solid;
+  
         }
     
     #event h2{
