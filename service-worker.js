@@ -1,0 +1,1 @@
+importScripts('https://cdn.pushassist.com/account/assets/service-workers/knustapces-service-worker.js');
