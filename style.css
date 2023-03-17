@@ -209,6 +209,12 @@ label.logo{
     letter-spacing: 10px;
 }
 
+#smallicon{
+    color:#9F3CC2;
+    font-size:10px;
+    letter-spacing: 10px;
+}
+
 #click{
     color:#9F3CC2;
     text-decoration: none;
