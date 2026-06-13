@@ -334,7 +334,7 @@ label.logo{
 }
 
 .introbox{
-    disp1lay: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: justify;
